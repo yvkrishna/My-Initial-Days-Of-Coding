@@ -1,7 +1,7 @@
 #  https://www.hackerrank.com/challenges/py-set-difference-operation/problem
 
 n1 = int(input())
-set_1 = set(map(int,input().split()))
+s1 = set(map(int,input().split()))
 n2 = int(input())
-set_2 = set(map(int,input().split()))
-print(len(set_1-set_2))
+s2 = set(map(int,input().split()))
+print(len(s_1-s_2))
