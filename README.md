@@ -1,2 +1,2 @@
-# Initial-Days-Of-Coding
+# My-Initial-Days-Of-Coding
 This repo contains the problems which i have done in hackerrank , codeforces ... 
