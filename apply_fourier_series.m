@@ -1,0 +1,12 @@
+N=3;
+[x1,y1]=fourier_series(N);
+subplot(3,1,1);
+plot(x,y);title("Fourier Series Representation of square wave");xlabel("t");ylabel("x ( t )For N=3");
+subplot(3,1,2);
+N=10;
+[x2,y2]=fourier_series(N);
+plot(x2,y2);xlabel("t");ylabel("x ( t )For N=10");
+subplot(3,1,3);
+N=200;
+[x3,y3]=fourier_series(N);
+plot(x3,y3);xlabel("t");ylabel("x ( t )For N=200");
