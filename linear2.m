@@ -11,3 +11,6 @@ y5=y3+y4;
 y6=3.^((c1.*x1)+(c2.*x2))+4;
 if( round(y5-y6)==0 )
     disp('linear');
+else
+    disp('not linear');
+end
