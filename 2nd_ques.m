@@ -19,17 +19,7 @@ c2=filter(b2,a2,y);​
 b3=[0.3333,0.3333,0.3333];​
 a3=[1,0,0];​
 c3=filter(b3,a3,y);​
-​
-figure;​
-subplot(2,2,1);​
-stem(x,y);xlabel('t');ylabel('x ( t )');title('input signal - > impulse signal');​
-subplot(2,2,2);​
-stem(x,c1);xlabel('t');ylabel('h1 ( t )');title('impulse response for the h1 system');​
-subplot(2,2,3);​
-stem(x,c2);xlabel('t');ylabel('h2 ( t )');title('impulse response for the h2 system');​
-subplot(2,2,4);​
-stem(x,c3);xlabel('t');ylabel('h3 ( t )');title('impulse response for the h3 system');​
-​
+
 figure​
 y1=conv(c1,c2);​
 [x123,y2]=sigadd(c3,y1,-5,5,-10,10);​
