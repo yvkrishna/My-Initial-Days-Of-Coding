@@ -59,7 +59,6 @@ inline void Distance ::calculation(Distance temp)
 	}	
 }
 
-
 int main()
 {
 float  x,y,t,m;
