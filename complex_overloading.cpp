@@ -31,6 +31,7 @@ void display(char *msg)
 }
 Complex operator +(Complex c);
 };
+
 Complex Complex :: operator +(Complex c)
 {
 Complex temp;
