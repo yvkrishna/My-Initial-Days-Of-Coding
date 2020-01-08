@@ -52,7 +52,8 @@ return 0;
 	v[i]=v2.v[i];	
 	}
 	}	
-		
+	
+
 int main()
 {
 	int i;
@@ -67,4 +68,4 @@ Vector v1(v2);
 cout<<"array v2 is :\n";
 v2.display();
 return 0;
-}		
+}
