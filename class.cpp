@@ -37,6 +37,7 @@ class Student
 	}
 	
 };
+
 int main ()
 {
 Student std1;
