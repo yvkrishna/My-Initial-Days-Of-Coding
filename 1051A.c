@@ -17,7 +17,6 @@ void solve(){
  
         int ups = 0;
         int downs = 0;
-     
         int digits = 0;
  
         for(int i= 0; i<n; i++){
