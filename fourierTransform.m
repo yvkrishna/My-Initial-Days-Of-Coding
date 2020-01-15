@@ -1,10 +1,12 @@
 function [f] = fourierTransform(inputFunc)
 f=zeros(size(inputFunc));
 a=0;
-t=linspace(-1,1,2*10);
-    for k=0:length(inputFunc)-1
-        f(k+1)=sum(inputFunc(k+1)*exp(-1i*k*2*pi*t));
+freq=[0:1:length(inputFunc)-1];
+    for n=0:length(inputFunc)-1
+        for k=0:length(inputFunc)-1
+            f(n+1)=f(n+1)+inputFunc(n+1)*exp((-1i*2*pi*k*n)/length(inputFunc));
+        end
     end
-    figure,
-plot(t,abs(f));
+figure,
+plot(freq,abs(f));
 end
