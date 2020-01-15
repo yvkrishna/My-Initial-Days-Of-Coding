@@ -6,5 +6,4 @@ for freq=1:1
 end
 figure,
 plot(t,func);
-
 a=fourierTransform(func);
