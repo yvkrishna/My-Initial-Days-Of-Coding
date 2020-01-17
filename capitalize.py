@@ -8,7 +8,6 @@ import sys
 
 # https://www.hackerrank.com/challenges/capitalize/problem
 
-
 # Complete the solve function below.
 def solve(s):
     str1=""
