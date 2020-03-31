@@ -1,4 +1,4 @@
-function [F] = fourierTransform(inputFunc,t)
+function [F] = fourierseries(inputFunc,t)
 a=0;
 nu=linspace(-10,10,101);
 F=zeros(size(nu));
